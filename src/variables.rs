@@ -1,4 +1,4 @@
-pub(crate) fn main() {
+pub(crate) fn _main() {
     let mut x = 5;
     println!("The value of x is: {}", x);
     x = 6;
@@ -9,7 +9,7 @@ pub(crate) fn main() {
     b = true;
     assert_eq!(a, b);
 }
-pub(crate) fn shadowing() {
+pub(crate) fn _shadowing() {
     let x = 5;
     // 在main函数的作用域内对之前的x进行遮蔽
     let x = x + 1;
