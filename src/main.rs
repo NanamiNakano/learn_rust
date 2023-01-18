@@ -1,13 +1,15 @@
 mod variables;
 mod practice;
+mod numbers;
 
 fn main() {
-    helloworld();
+    //hello_world();
     // variables::main();
     // variables::shadowing();
     // practice::main();
+    numbers::nan();
 }
 
-fn helloworld() {
+fn _hello_world() {
     println!("Hello, world!");
 }

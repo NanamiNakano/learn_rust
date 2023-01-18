@@ -1,3 +1,3 @@
-pub(crate) fn main() {
+pub(crate) fn _main() {
 
 }
