@@ -1,27 +1,24 @@
-use crate::char_bool::char;
-
 mod variables;
-mod practice;
 mod numbers;
 mod char_bool;
 
 fn main() {
     // hello_world();
-    // practice::main();
 
     // variables
     // variables::main();
-    // shadowing();
+    // variables::shadowing();
 
     // numbers
     // numbers::nan();
-    // bit();
-    // count();
-    // range();
-    // complex();
+    // numbers::bit();
+    // numbers::count();
+    // numbers::range();
+    // numbers::complex();
 
-    //char_bool
+    // char_bool
     // char_bool::char();
+    char_bool::mem_size();
 }
 
 fn _hello_world() {
