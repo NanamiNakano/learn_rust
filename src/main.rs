@@ -3,11 +3,18 @@ mod practice;
 mod numbers;
 
 fn main() {
-    //hello_world();
+    // hello_world();
+    // practice::main();
+
+    // variables
     // variables::main();
     // variables::shadowing();
-    // practice::main();
-    numbers::nan();
+
+    // numbers
+    // numbers::nan();
+    // numbers::bit();
+    // numbers::count();
+    // numbers::range();
 }
 
 fn _hello_world() {
