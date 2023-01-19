@@ -1,6 +1,9 @@
+use crate::char_bool::char;
+
 mod variables;
 mod practice;
 mod numbers;
+mod char_bool;
 
 fn main() {
     // hello_world();
@@ -8,13 +11,17 @@ fn main() {
 
     // variables
     // variables::main();
-    // variables::shadowing();
+    // shadowing();
 
     // numbers
     // numbers::nan();
-    // numbers::bit();
-    // numbers::count();
-    // numbers::range();
+    // bit();
+    // count();
+    // range();
+    // complex();
+
+    //char_bool
+    // char_bool::char();
 }
 
 fn _hello_world() {

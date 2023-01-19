@@ -64,4 +64,18 @@ pub(crate) fn _range() {
     for i in 1..5 {
         println!("{}", i);
     }
+
+    for i in 'a'..='z' {
+        println!("{}",i);
+    }
+}
+
+use num::complex::Complex;
+
+pub(crate) fn complex() {
+    let a = Complex { re: 2.1, im: -1.2 };
+    let b = Complex::new(11.1, 22.2);
+    let result = a + b;
+
+    println!("{}", result.to_string());
 }
