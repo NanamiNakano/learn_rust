@@ -1,4 +1,4 @@
-pub(crate) fn _char() {
+pub(crate) fn _chars() {
     let c = 'z';
     let z = 'ℤ';
     let heart_eyed_cat = '😻';

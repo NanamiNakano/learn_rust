@@ -4,6 +4,7 @@ mod char_bool;
 
 fn main() {
     // hello_world();
+    // love_kally();
 
     // variables
     // variables::main();
@@ -17,10 +18,14 @@ fn main() {
     // numbers::complex();
 
     // char_bool
-    // char_bool::char();
-    char_bool::mem_size();
+    // char_bool::chars();
+    // char_bool::mem_size();
 }
 
 fn _hello_world() {
     println!("Hello, world!");
+}
+
+fn _love_kally() {
+    println!("I love Kally! @KallyDev");
 }
