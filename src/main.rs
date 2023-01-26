@@ -1,6 +1,8 @@
 mod variables;
 mod numbers;
 mod char_bool;
+mod test;
+mod function;
 
 fn main() {
     // hello_world();
@@ -20,6 +22,8 @@ fn main() {
     // char_bool
     // char_bool::chars();
     // char_bool::mem_size();
+    // char_bool::bools();
+
 }
 
 fn _hello_world() {
